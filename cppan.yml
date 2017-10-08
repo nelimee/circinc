@@ -1,0 +1,9 @@
+
+# Warning: Version should NOT be 1.65 because this version introduced a bug
+# with BOOST_MAY_ALIAS macro.
+dependencies:
+  pvt.cppan.demo.boost.wave: "1.64"
+  pvt.cppan.demo.boost.program_options: "1.64"
+  pvt.cppan.demo.boost.filesystem: "1.64"
+  pvt.cppan.demo.boost.graph: "1.64"
+  pvt.cppan.demo.boost.bimap: "1.64"
