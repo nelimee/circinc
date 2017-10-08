@@ -64,7 +64,7 @@ Configuration:
                                         system #included files.
 ```
 
-###Examples
+### Examples
 Output the version and exit.
 ```commandline
 circinc -v
