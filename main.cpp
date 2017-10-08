@@ -64,13 +64,12 @@ int main(int argc, char const * const argv[]) {
         return 0;
     }
     if(vmap.count("version")) {
-        std::cout << "CircInc " << (CIRCINC_VERSION_STRING) << std::endl
-                  << "Build with: " << std::endl
+        std::cout << "CircInc " << (CIRCINC_VERSION_STRING) << " build with: " << std::endl
                   << "\tboost::wave " << (BOOST_WAVE_VERSION_MAJOR) << "." << (BOOST_WAVE_VERSION_MINOR) << "."
                   << (BOOST_WAVE_VERSION_SUBMINOR) << std::endl
                   << "\tboost::program_options " << (BOOST_PROGRAM_OPTIONS_VERSION) << std::endl
                   << "\tboost::filesystem " << (BOOST_FILESYSTEM_VERSION) << std::endl
-                  << "\tboost::graph " << "Last version available";
+                  << "\tboost::graph " << "Last version available" << std::endl;
         return 0;
     }
     if( !vmap.count("entry_point") ) {

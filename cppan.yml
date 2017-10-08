@@ -7,3 +7,5 @@ dependencies:
   pvt.cppan.demo.boost.filesystem: "1.64"
   pvt.cppan.demo.boost.graph: "1.64"
   pvt.cppan.demo.boost.bimap: "1.64"
+
+static_only: true
